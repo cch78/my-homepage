@@ -1,0 +1,5 @@
+﻿User-agent: *
+Allow: /
+
+Sitemap: https://www.kh-alwaysbluehani.co.kr/sitemap.xml
+

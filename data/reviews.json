@@ -1,0 +1,21 @@
+{
+  "lastUpdated": "2026. 5. 25.",
+  "sources": {
+    "naver": {
+      "name": "네이버 플레이스",
+      "url": "https://map.naver.com/p/entry/place/1471666703",
+      "count": 0
+    },
+    "google": {
+      "name": "Google",
+      "url": "",
+      "count": 0
+    },
+    "kakao": {
+      "name": "카카오맵",
+      "url": "",
+      "count": 0
+    }
+  },
+  "reviews": []
+}

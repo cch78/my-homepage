@@ -1,0 +1,34 @@
+# Local Netlify folder
+.netlify
+
+# Dependencies
+node_modules/
+
+# Backup files
+indexforrecovery.html
+
+# Claude Code local settings
+.claude/
+
+# Cached/crawled resources (not site assets)
+resource/apis.naver.com/
+resource/blog.naver.com/
+resource/blog.naverblogwidget.com/
+resource/blogimgs.pstatic.net/
+resource/editor-static.pstatic.net/
+resource/keywordco.my.canva.site/
+resource/map.pstatic.net/
+resource/maps.googleapis.com/
+resource/maps.gstatic.com/
+resource/ntm.pstatic.net/
+resource/oapi.map.naver.com/
+resource/simg.pstatic.net/
+resource/ssl.pstatic.net/
+resource/static-feedback.pstatic.net/
+resource/static-like.pstatic.net/
+resource/static.nid.naver.com/
+resource/www.google.com/
+resource/_DataURI/
+
+# Empty/temp files
+npx

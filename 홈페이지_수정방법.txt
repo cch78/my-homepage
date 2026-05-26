@@ -1,0 +1,68 @@
+============================
+  경희늘푸른한의원 홈페이지 수정 방법
+============================
+
+■ 파일 위치
+  C:\Users\wncks\my-homepage\
+
+■ 주요 파일
+  - index.html   : 홈페이지 내용 (텍스트, 구조)
+  - style.css    : 디자인 (색상, 폰트, 레이아웃)
+  - script.js    : 동작 (버튼, 애니메이션)
+  - resource/    : 이미지 파일 모음
+
+==============================
+  수정 → 반영 순서
+==============================
+
+1. 수정하기
+   - index.html, style.css 등 파일을 메모장 또는 VSCode로 열어서 수정
+   - 저장 (Ctrl+S)
+
+2. Netlify에 다시 올리기
+   - 브라우저에서 https://app.netlify.com 접속 후 로그인
+   - 좌측 메뉴에서 [elegant-mermaid-64ab24] 사이트 클릭
+   - [Deploys] 탭 클릭
+   - 화면 하단 "Drag and drop your site folder here" 영역에
+     C:\Users\wncks\my-homepage deploy.bat 파일 더블클릭
+   - 검은 창이 뜨고 Done! 이 나오면 완료 (1~2분 후 반영)
+
+3. 확인
+   - https://kh-alwaysbluehani.co.kr 접속해서 수정 내용 확인
+
+==============================
+  자주 수정하는 것들
+==============================
+
+■ 전화번호 변경
+  index.html 에서 "032-672-6151" 검색 후 교체
+
+■ 진료 시간 변경
+  index.html 에서 "08:30" 검색 후 해당 구역 수정
+
+■ 이미지 교체
+  resource/blog/ 폴더 안의 이미지를 같은 파일명으로 교체
+  (파일명 변경 시 index.html 내 경로도 함께 수정 필요)
+
+■ 공지사항 문구 변경
+  index.html 에서 "notice-bar" 구역 찾아서 수정
+
+==============================
+  Netlify 로그인 정보
+==============================
+  주소  : https://app.netlify.com
+  계정  : offjch81@gmail.com (Google 계정으로 로그인)
+  사이트 이름 : elegant-mermaid-64ab24
+
+==============================
+  도메인 정보
+==============================
+  실제 주소  : https://kh-alwaysbluehani.co.kr
+  도메인 구매처 : 가비아 (gabia.com)
+  갱신 주기  : 매년 (만료일 전 가비아에서 갱신 결제)
+
+==============================
+  검색엔진 등록 (추후 진행)
+==============================
+  - Google Search Console : https://search.google.com/search-console
+  - 네이버 서치어드바이저  : https://searchadvisor.naver.com
