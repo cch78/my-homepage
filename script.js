@@ -28,9 +28,12 @@ window.addEventListener('scroll', () => {
 });
 topBtn.style.opacity = '0';
 
-// Contact form submission
+// Contact form submission (Web3Forms → email + KakaoTalk redirect)
+const KAKAO_CHANNEL = 'http://pf.kakao.com/_pmCxeG';
+const WEB3FORMS_KEY = '6f8a690a-2fc3-453a-978b-7109240bd8b8';
+
 const form = document.getElementById('contactForm');
-form.addEventListener('submit', (e) => {
+form.addEventListener('submit', async (e) => {
   e.preventDefault();
   const name = document.getElementById('name').value.trim();
   const phone = document.getElementById('phone').value.trim();
@@ -38,8 +41,36 @@ form.addEventListener('submit', (e) => {
     alert('이름과 연락처를 입력해 주세요.');
     return;
   }
-  alert(`${name}님의 상담 신청이 접수되었습니다.\n빠른 시일 내에 연락드리겠습니다.`);
-  form.reset();
+
+  const submitBtn = form.querySelector('button[type="submit"]');
+  submitBtn.disabled = true;
+  submitBtn.textContent = '전송 중...';
+
+  const formData = new FormData(form);
+  formData.append('access_key', WEB3FORMS_KEY);
+  formData.append('subject', `[경희늘푸른한의원] 상담 신청 - ${name} (${phone})`);
+  formData.append('from_name', '경희늘푸른한의원 홈페이지');
+
+  try {
+    const res = await fetch('https://api.web3forms.com/submit', {
+      method: 'POST',
+      body: formData
+    });
+    const data = await res.json();
+
+    if (data.success) {
+      form.reset();
+      alert(`${name}님의 상담 신청이 접수되었습니다.\n카카오톡 채널로 연결합니다.`);
+      window.open(KAKAO_CHANNEL, '_blank');
+    } else {
+      alert('전송 중 오류가 발생했습니다.\n전화(032-672-6151)로 문의해 주세요.');
+    }
+  } catch (err) {
+    alert('네트워크 오류가 발생했습니다.\n전화(032-672-6151)로 문의해 주세요.');
+  } finally {
+    submitBtn.disabled = false;
+    submitBtn.textContent = '상담 신청하기';
+  }
 });
 
 // Scroll reveal animation
