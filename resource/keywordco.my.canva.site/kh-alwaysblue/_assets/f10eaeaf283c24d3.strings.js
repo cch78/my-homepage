@@ -1,0 +1,9 @@
+(function() {
+ const messages = JSON.parse("{\"WKDtIg\":\"매우 기분이 좋음\",\"JWYKDQ\":\"{0} 이상이어야 합니다\",\"jh7u2w\":\"올바르지 않은 형식입니다\",\"c5VJ7g\":\"자세히 알아보기\",\"Jj1O+A\":\"{0, plural, one {항목 #개} other {항목 #개}}를 선택해야 합니다\",\"Ci3xnA\":\"제출하려면 데이터 정책에 동의해 주세요\",\"Ahvd0w\":\"새 응답 제출\",\"sUWUOA\":\"{0}%\",\"dVBIgQ\":\"나의 응답 및 이 응답과 관련된 데이터를 공유하는 데 동의합니다.\",\"Q5Pg4w\":\"{0, plural, one {#자} other {#자}} 이상이어야 합니다\",\"4EBAAA\":\"{0} 이하여야 합니다\",\"pgYrWw\":\"Canva 프로필 이름이 공유돼요. 비밀번호를 제출하지 마세요.\",\"orPgUw\":\"양식을 불러올 수 없습니다\",\"3Spodw\":\"매우 기분이 좋지 않음\",\"As1GTA\":\"잘못된 답변\",\"/Y/V2Q\":\"Canva 프로필 이름이 공유되지 않아요. 비밀번호를 제출하지 마세요.\",\"xSH8Og\":\"답변이 저장되었습니다\",\"wutQEA\":\"제출 중...\",\"BtJs5g\":\"Canva 프로필 이름이 공유돼요\",\"1aqRWg\":\"{0, plural, one {별점} other {별점}} {0}점\",\"Qso6Xw\":\"정확히 {0, plural, one {#자} other {#자}}여야 합니다\",\"z/bN8g\":\"올바르지 않은 이메일 주소\",\"Aa3fvQ\":\"정확히 {0}(을)를 입력해야 합니다\",\"2Q9Q+A\":\"로드 중...\",\"6QpLYA\":\"{0, plural, one {#표} other {#표}}\",\"SWeX4Q\":\"{0, plural, one {#자} other {#자}} 이하여야 합니다\",\"nFbxIQ\":\"오프라인\",\"STZx7Q\":\"필드 하나 이상에 정보를 입력하세요\",\"izckBA\":\"답변을 제출할 수 없습니다.\",\"w/Qzlg\":\"폼\",\"ktnWSg\":\"*필수 입력란입니다\",\"mQhziQ\":\"다시 시도하기\",\"U28wGg\":\"{0, plural, one {#개 이상의 항목} other {#개 이상의 항목}}을 선택해야 합니다\",\"T6pZfw\":\"데이터 처리 이용 약관에 동의해 주세요\",\"kgHTHw\":\"답변을 삭제할 수 없습니다.\",\"z/APcw\":\"Canva 프로필 이름이 공유되지 않아요\",\"kbfbNQ\":\"{0, plural, one {#개 이하의 항목} other {#개 이하의 항목}}을 선택해야 합니다\",\"fNQh9A\":\"올바르지 않은 숫자입니다\",\"bqTQmw\":\"기분이 좋지 않음\",\"ssYkyg\":\"행복한\",\"i3mNPA\":\"올바른 답변\",\"zt/K0Q\":\"알 수 없는 옵션이 선택되었습니다\",\"VGvKlQ\":\"Canva의 데이터 처리 방식 알아보기\",\"k/uS7g\":\"뉴트럴\"}");
+ const cmsg = globalThis["cmsg"] = globalThis["cmsg"] || {};
+
+ const loaded = cmsg["loaded"] = cmsg["loaded"] || {};
+ loaded["70386_ko-KR"] = 1;
+ const strings = cmsg["strings"] = cmsg["strings"] || {};
+ strings["ko-KR"] = strings["ko-KR"] ? Object.assign(strings["ko-KR"], messages) : messages;
+})();

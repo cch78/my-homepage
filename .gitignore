@@ -16,7 +16,7 @@ resource/blog.naver.com/
 resource/blog.naverblogwidget.com/
 resource/blogimgs.pstatic.net/
 resource/editor-static.pstatic.net/
-resource/keywordco.my.canva.site/
+# resource/keywordco.my.canva.site/ # 사이트 이미지 포함되어 있어 제외 해제
 resource/map.pstatic.net/
 resource/maps.googleapis.com/
 resource/maps.gstatic.com/
