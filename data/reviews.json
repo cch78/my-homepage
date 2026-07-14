@@ -1,21 +1,134 @@
 {
-  "lastUpdated": "2026. 5. 25.",
+  "lastUpdated": "2026. 7. 14.",
   "sources": {
     "naver": {
       "name": "네이버 플레이스",
       "url": "https://map.naver.com/p/entry/place/1471666703",
-      "count": 0
+      "count": 10
+    },
+    "kakao": {
+      "name": "카카오맵",
+      "url": "https://place.map.kakao.com/825597218",
+      "count": 4
     },
     "google": {
       "name": "Google",
       "url": "",
       "count": 0
-    },
-    "kakao": {
-      "name": "카카오맵",
-      "url": "",
-      "count": 0
     }
   },
-  "reviews": []
+  "reviews": [
+    {
+      "id": "naver_6a546812351983605ceaf71f",
+      "source": "naver",
+      "author": "별사탕반짝",
+      "rating": 5,
+      "date": "2026-07-13",
+      "text": "친절해서 좋아요"
+    },
+    {
+      "id": "naver_6a52c2cf8df7d9f25eea202d",
+      "source": "naver",
+      "author": "XOR78",
+      "rating": 5,
+      "date": "2026-07-12",
+      "text": "몸과 마음이 건강해지는 한의원 정말 만족해요!"
+    },
+    {
+      "id": "naver_6a53567944660b58e2459ac5",
+      "source": "naver",
+      "author": "naya****",
+      "rating": 5,
+      "date": "2026-07-12",
+      "text": "치료 잘 받고 갑니다 ~♡"
+    },
+    {
+      "id": "naver_6a519741b7429907ee6e5526",
+      "source": "naver",
+      "author": "XOR78",
+      "rating": 5,
+      "date": "2026-07-11",
+      "text": "목요일 남자 원장님 정말 치료 잘하세요 정말 감사합니다."
+    },
+    {
+      "id": "naver_6a4f5ac623c4317ed272d1e8",
+      "source": "naver",
+      "author": "XOR78",
+      "rating": 5,
+      "date": "2026-07-09",
+      "text": "원장님이 정말 진료 잘하세요 다른 분들께도 꼭 추천 하고 싶습니다."
+    },
+    {
+      "id": "naver_6a4e016caec8ed53ec902d1f",
+      "source": "naver",
+      "author": "XOR78",
+      "rating": 5,
+      "date": "2026-07-08",
+      "text": "원장님께 진료 받은 이후로 빠르게 회복 되고 있어요"
+    },
+    {
+      "id": "naver_6a4b623cdfb189ca953251e3",
+      "source": "naver",
+      "author": "XOR78",
+      "rating": 5,
+      "date": "2026-07-06",
+      "text": "원장님이 정말 친절하시고, 원인분석부터 증상에 대한 자세한 설명으로 믿음직 합니다"
+    },
+    {
+      "id": "naver_6a4b5ac6c0a54a7b0b2e1873",
+      "source": "naver",
+      "author": "올리비아2870",
+      "rating": 5,
+      "date": "2026-07-06",
+      "text": "지인 소개로 방문하게 되었는데 원장님께서 자세히 설명해 주셔서 좋았어요 ~ 침 치료도 아프지 않았고 불부황 이라는걸 처음 해보긴 했는데 첨엔 좀 겁이 났는데 ㅋ 괜찮았어요 여러모로 신경써 주셔서 감사합니다."
+    },
+    {
+      "id": "naver_6a4b59a5d956fe9cf93234a2",
+      "source": "naver",
+      "author": "eli****",
+      "rating": 5,
+      "date": "2026-07-06",
+      "text": "소화기능,두통,발 뒷꿈치 통증으로 내원하여 진료상담받고 치료 받음. 원장님의 성의 있는 진료 상담으로 첫 방문인데 편안함 맘으로 진료와 치료 받았습니다. 한결 가벼운 마음으로 치료 받고, 물리치료시 그동안 쓰지 못하던 등 근육까지 풀고 몸이 한결 가벼워짐. 원장님과 간호사샘들 친절하심 감사합니다!"
+    },
+    {
+      "id": "naver_6a4b56d84710d7ed889d3838",
+      "source": "naver",
+      "author": "ycri****",
+      "rating": 5,
+      "date": "2026-07-06",
+      "text": "허리가 아파서 방문했는데, 원장님의 정성스런 침을 맞고나니 허리가 한결 편해졌습니다. 부항 맞고 감압기 치료까지 했는데, 기계가 최신식이라(정형외과에서 하던 기계에 비하면) 깜착 놀랐어요ㅎㅎ 담에는 팔꿈치 치료도 하러 와야겠어요~"
+    },
+    {
+      "id": "kakao_13513066",
+      "source": "kakao",
+      "author": "카카오맵 이용자",
+      "rating": 5,
+      "date": "2025-08-19",
+      "text": "시설 깔끔하고 편안해요~ 직원분들도 친절하시고 원장님이 침을 잘놓으심 한약 먹어보니 확실히 효과가 좋더라구요 왜 먹는지 알것같아요 ^^"
+    },
+    {
+      "id": "kakao_12551277",
+      "source": "kakao",
+      "author": "카카오맵 이용자",
+      "rating": 5,
+      "date": "2025-04-15",
+      "text": "적극 추천합니다 👍"
+    },
+    {
+      "id": "kakao_10315078",
+      "source": "kakao",
+      "author": "카카오맵 이용자",
+      "rating": 5,
+      "date": "2024-06-09",
+      "text": "원장님 너무 친절하시고 아픈게 싹 좋아졌어요..!"
+    },
+    {
+      "id": "kakao_9960318",
+      "source": "kakao",
+      "author": "카카오맵 이용자",
+      "rating": 5,
+      "date": "2024-04-20",
+      "text": "리모델링한 병원이라 깨끗하고 젊은원장님과 직원들 친절하시더라구요 이제는 주말도 오전진료 보신다고 하시더라구요 리뷰처음 쓰는건데 좋아서 남겨봅니다"
+    }
+  ]
 }

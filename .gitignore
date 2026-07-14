@@ -32,3 +32,14 @@ resource/_DataURI/
 
 # Empty/temp files
 npx
+
+# 크롤러 로그 (매주 갱신되는 로컬 기록)
+crawler/crawl-log.txt
+crawler/launchd-stdout.log
+crawler/launchd-stderr.log
+
+# 개인 메모/이전 문서 (공개 사이트에 올라가면 안 됨)
+MAC_이전_안내.md
+클로드_입력용_프롬프트.txt
+홈페이지_수정방법.txt
+claude-memory/
