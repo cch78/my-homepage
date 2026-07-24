@@ -797,3 +797,204 @@ button { cursor: pointer; border: none; background: none; }
   .live-reviews-stats { gap: 12px; }
   .live-reviews-grid { grid-template-columns: 1fr; }
 }
+
+/* ─── 자주 묻는 질문(FAQ) ───────────────────────────────── */
+.faq { background: var(--bg-alt); }
+.faq-list {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.faq-item {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+  transition: box-shadow var(--transition);
+}
+.faq-item[open] { box-shadow: var(--shadow-md); }
+.faq-item summary {
+  list-style: none;
+  cursor: pointer;
+  padding: 20px 56px 20px 24px;
+  position: relative;
+  transition: background var(--transition);
+}
+.faq-item summary::-webkit-details-marker { display: none; }
+.faq-item summary:hover { background: var(--bg-alt); }
+.faq-item summary h3 {
+  display: inline;
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: var(--text);
+  line-height: 1.6;
+}
+.faq-item summary::after {
+  content: '';
+  position: absolute;
+  right: 26px;
+  top: 50%;
+  width: 10px;
+  height: 10px;
+  border-right: 2px solid var(--primary);
+  border-bottom: 2px solid var(--primary);
+  transform: translateY(-70%) rotate(45deg);
+  transition: transform var(--transition);
+}
+.faq-item[open] summary::after { transform: translateY(-30%) rotate(-135deg); }
+.faq-answer {
+  padding: 0 24px 22px;
+  border-top: 1px solid var(--border);
+  padding-top: 18px;
+  margin: 0 24px;
+  padding-left: 0;
+  padding-right: 0;
+}
+.faq-answer p { color: var(--text-muted); margin-bottom: 12px; }
+.faq-answer p:last-child { margin-bottom: 0; }
+.faq-answer strong { color: var(--text); font-weight: 700; }
+.faq-answer a { color: var(--primary); text-decoration: underline; }
+.faq-link { font-weight: 500; text-decoration: none !important; }
+.faq-link:hover { color: var(--primary-dark); }
+
+@media (max-width: 768px) {
+  .faq-item summary { padding: 17px 46px 17px 18px; }
+  .faq-item summary h3 { font-size: 0.98rem; }
+  .faq-answer { margin: 0 18px; padding-bottom: 18px; }
+}
+
+/* ─── 질환별 상세 페이지(서브페이지) ─────────────────────── */
+.subpage-hero {
+  background: linear-gradient(135deg, var(--primary-dark), var(--primary));
+  color: var(--white);
+  padding: 250px 0 64px;
+}
+.breadcrumb { font-size: 0.86rem; opacity: 0.85; margin-bottom: 20px; }
+.breadcrumb a { text-decoration: underline; }
+.breadcrumb span { margin: 0 4px; }
+.subpage-label {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.18);
+  border: 1px solid rgba(255, 255, 255, 0.32);
+  padding: 6px 16px;
+  border-radius: 30px;
+  font-size: 0.86rem;
+  font-weight: 500;
+  margin-bottom: 18px;
+}
+.subpage-title { font-size: 2.4rem; font-weight: 900; line-height: 1.35; margin-bottom: 20px; }
+.subpage-lead { font-size: 1.06rem; line-height: 1.85; max-width: 760px; opacity: 0.95; }
+.subpage-lead strong { font-weight: 700; border-bottom: 2px solid rgba(255,255,255,0.5); }
+.subpage-cta { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 30px; }
+.subpage-hero .btn-outline-dark { border-color: rgba(255,255,255,0.6); color: var(--white); }
+.subpage-hero .btn-outline-dark:hover { background: rgba(255,255,255,0.14); }
+
+.content-narrow { max-width: 860px; }
+.content-h2 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin: 52px 0 18px;
+  padding-left: 16px;
+  border-left: 5px solid var(--primary);
+  line-height: 1.45;
+}
+.content-narrow > p { color: var(--text-muted); margin-bottom: 16px; line-height: 1.9; }
+.content-narrow > p strong { color: var(--text); }
+.content-narrow a { color: var(--primary); text-decoration: underline; }
+
+.callout {
+  background: var(--bg-alt);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 26px 28px;
+  margin: 26px 0;
+}
+.callout h3 { font-size: 1.12rem; font-weight: 700; margin-bottom: 14px; }
+.callout p { color: var(--text-muted); line-height: 1.9; }
+.callout p strong { color: var(--text); }
+.callout-accent { background: #eef7f3; border-color: #c9e6da; border-left: 5px solid var(--accent); }
+
+.check-list { display: flex; flex-direction: column; gap: 11px; }
+.check-list li {
+  position: relative;
+  padding-left: 30px;
+  color: var(--text-muted);
+  line-height: 1.8;
+}
+.check-list li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: var(--accent);
+  font-weight: 700;
+}
+.check-list li strong { color: var(--text); }
+
+.treat-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 16px;
+  margin: 26px 0;
+}
+.treat-card {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 22px 22px 24px;
+  box-shadow: var(--shadow);
+}
+.treat-card h3 { font-size: 1.06rem; font-weight: 700; color: var(--primary-dark); margin-bottom: 10px; }
+.treat-card p { color: var(--text-muted); font-size: 0.95rem; line-height: 1.8; }
+
+.step-list { display: flex; flex-direction: column; gap: 18px; margin: 26px 0; }
+.step-list li { display: flex; gap: 16px; align-items: flex-start; }
+.step-badge {
+  flex-shrink: 0;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: var(--primary);
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 0.95rem;
+}
+.step-list strong { display: block; margin-bottom: 4px; }
+.step-list p { color: var(--text-muted); font-size: 0.95rem; line-height: 1.8; }
+
+.page-cta {
+  background: var(--bg-alt);
+  border-radius: var(--radius);
+  padding: 40px 32px;
+  text-align: center;
+  margin: 56px 0 32px;
+}
+.page-cta h2 { font-size: 1.45rem; font-weight: 700; margin-bottom: 10px; }
+.page-cta > p { color: var(--text-muted); margin-bottom: 8px; }
+.page-cta .subpage-cta { justify-content: center; }
+
+.related-links {
+  border-top: 1px solid var(--border);
+  padding-top: 28px;
+  margin-top: 40px;
+}
+.related-links h3 { font-size: 1.05rem; font-weight: 700; margin-bottom: 14px; }
+.related-links ul { display: flex; flex-direction: column; gap: 10px; }
+.related-links a { color: var(--primary); text-decoration: none; }
+.related-links a:hover { text-decoration: underline; }
+
+@media (max-width: 768px) {
+  .subpage-hero { padding: 172px 0 48px; }
+  .subpage-title { font-size: 1.72rem; }
+  .subpage-lead { font-size: 0.99rem; }
+  .content-h2 { font-size: 1.32rem; margin: 40px 0 14px; }
+  .callout { padding: 20px 20px; }
+  .page-cta { padding: 32px 20px; }
+  .subpage-cta .btn { width: 100%; text-align: center; }
+}
