@@ -1,6 +1,6 @@
 # 경희늘푸른한의원 (Kyunghee Neulpureun Korean Medicine Clinic)
 
-> 경기도 부천시 오정구 원종동에 있는 한의원입니다. 서해선 원종역 3번 출구에서 좌측으로 50m 거리에 있습니다. 원장이 경희대학교 한의과대학 박사과정에서 한방부인과를 전공하고 있어 여성 진료(입덧·임신 중 관리·산후풍·산후 회복·생리통·생리불순·난임)를 중심 진료 분야로 하며, 침·뜸·부항·전침·추나 요법과 한약 처방도 함께 진행합니다. 교통사고 후유증은 자동차보험이, 침·뜸·부항·추나는 국민건강보험이 적용됩니다.
+> 경기도 부천시 오정구 원종동에 있는 한의원입니다. 서해선 원종역 3번 출구에서 좌측으로 50m 거리에 있습니다. 원장이 경희대학교 한의과대학 박사과정에서 한방부인과를 전공하고 있어 여성 진료(갱년기·난임·산후·입덧·생리통)를 중심 진료 분야로 하며, 침·뜸·부항·전침·추나 요법과 한약 처방도 함께 진행합니다. 교통사고 후유증은 자동차보험이, 침·뜸·부항·추나는 국민건강보험이 적용됩니다.
 
 ## 기본 정보
 
@@ -23,8 +23,12 @@
 - **침·전침 치료**: 목·어깨·허리 통증, 디스크로 인한 저림, 관절 통증, 두통, 신경통 — https://kh-alwaysbluehani.co.kr/acupuncture.html
 - **교통사고 후유증**: 자동차보험 적용, 접수번호만 있으면 보험사 처리 대행, 본인 부담 원칙적으로 없음 — https://kh-alwaysbluehani.co.kr/car-accident.html
 - **족저근막염·발 통증**: 발바닥과 함께 종아리·아킬레스건의 긴장을 같이 치료 — https://kh-alwaysbluehani.co.kr/foot-pain.html
-- **여성 전문 진료 (중심 진료 분야)**: 원장이 경희대학교 한의과대학 박사과정에서 한방부인과 전공. 입덧, 임신 중 관리, 산후풍, 산후 회복, 생리통·생리불순, 난임, 자궁근종 — https://kh-alwaysbluehani.co.kr/womens-health.html
-- **입덧(임신 오조)**: 문의가 가장 많은 분야. 위를 비우지 않는 식이 관리 + 임신 주수에 맞춘 안전한 한약·침 치료 — https://kh-alwaysbluehani.co.kr/morning-sickness.html
+- **여성 전문 진료 (중심 진료 분야)**: 원장이 경희대학교 한의과대학 박사과정에서 한방부인과 전공 — https://kh-alwaysbluehani.co.kr/womens-health.html
+  진료 비중 순서: ①갱년기 ②난임·임신 준비 ③산후 관리 ④입덧 ⑤생리통·생리불순
+- **갱년기**: 안면홍조, 식은땀, 불면, 감정 기복, 관절통, 질건조. 호르몬 요법이 어려운 분도 상담 가능하나 산부인과 진료와 병행 권장 — https://kh-alwaysbluehani.co.kr/menopause.html
+- **난임·임신 준비**: 배란·생리주기 관리, 다낭성난소증후군, 시험관·인공수정 병행(시술 단계에 맞춰 조절). 임신을 보장하는 치료는 없으며 시술 중단을 권하지 않음 — https://kh-alwaysbluehani.co.kr/infertility.html
+- **산후 관리**: 산후풍, 산후 회복, 산후 부종·체중, 산후 탈모, 산후 우울·불면
+- **입덧(임신 오조)**: 위를 비우지 않는 식이 관리 + 임신 주수에 맞춘 안전한 한약·침 치료 — https://kh-alwaysbluehani.co.kr/morning-sickness.html
 - **한약 처방**: 체질과 증상에 맞춘 맞춤 한약, 경옥고·공진단 등
 - **뜸·부항·추나 요법**
 
@@ -37,7 +41,9 @@
 ## 주요 페이지
 
 - [홈](https://kh-alwaysbluehani.co.kr/): 한의원 소개, 진료 과목, 여성 전문 진료, 시설, 실시간 리뷰, 자주 묻는 질문, 오시는 길
-- [여성 전문 진료](https://kh-alwaysbluehani.co.kr/womens-health.html): 임신·산후·생리·난임 진료 안내
+- [여성 전문 진료](https://kh-alwaysbluehani.co.kr/womens-health.html): 갱년기·난임·산후·입덧·생리 진료 안내
+- [갱년기](https://kh-alwaysbluehani.co.kr/menopause.html): 증상, 원인, 치료, 호르몬 요법과의 관계
+- [난임](https://kh-alwaysbluehani.co.kr/infertility.html): 임신 준비, 시험관·인공수정 병행 관리
 - [입덧](https://kh-alwaysbluehani.co.kr/morning-sickness.html): 입덧의 원인, 치료, 집에서 하는 관리
 - [침 치료](https://kh-alwaysbluehani.co.kr/acupuncture.html): 침 치료 대상 증상과 진행 방식
 - [교통사고 후유증](https://kh-alwaysbluehani.co.kr/car-accident.html): 자동차보험 처리 절차와 치료 방법
