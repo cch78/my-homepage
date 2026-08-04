@@ -998,3 +998,33 @@ button { cursor: pointer; border: none; background: none; }
   .page-cta { padding: 32px 20px; }
   .subpage-cta .btn { width: 100%; text-align: center; }
 }
+
+/* ─── 건강 칼럼 ───────────────────────────────────────────── */
+.col-article { padding-top: 128px; }
+.breadcrumb-dark a { color: var(--primary); }
+.breadcrumb-dark span { color: var(--text-muted); }
+.col-tag { color: var(--primary); font-weight: 500; font-size: 0.92rem; letter-spacing: .3px; margin-bottom: 12px; }
+.col-title { font-size: 2.1rem; font-weight: 900; line-height: 1.35; color: var(--text); margin-bottom: 14px; }
+.col-byline { color: var(--text-muted); font-size: 0.92rem; padding-bottom: 22px; border-bottom: 1px solid var(--border); margin-bottom: 26px; }
+.col-lead { font-size: 1.12rem; line-height: 1.9; color: var(--text); margin-bottom: 10px; }
+.col-disclaimer { margin-top: 30px; padding-top: 18px; border-top: 1px solid var(--border); color: var(--text-muted); font-size: 0.88rem; line-height: 1.7; }
+
+.col-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; }
+.col-card {
+  display: block; background: var(--white); border: 1px solid var(--border);
+  border-radius: var(--radius); box-shadow: var(--shadow); padding: 26px 24px 22px;
+  text-decoration: none; color: inherit; transition: transform var(--transition), box-shadow var(--transition);
+}
+.col-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-md); }
+.col-card-tag { display: inline-block; background: var(--bg-alt); color: var(--primary); font-size: 0.82rem; font-weight: 500; padding: 4px 12px; border-radius: 30px; margin-bottom: 14px; }
+.col-card h2 { font-size: 1.28rem; font-weight: 700; line-height: 1.45; margin-bottom: 10px; }
+.col-card p { color: var(--text-muted); font-size: 0.96rem; line-height: 1.7; margin-bottom: 14px; }
+.col-card-meta { color: var(--text-muted); font-size: 0.85rem; }
+.col-card-soon { opacity: 0.7; box-shadow: none; }
+.col-card-soon:hover { transform: none; }
+
+@media (max-width: 768px) {
+  .col-article { padding-top: 96px; }
+  .col-title { font-size: 1.6rem; }
+  .col-lead { font-size: 1.02rem; }
+}
