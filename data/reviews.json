@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026. 8. 2.",
+  "lastUpdated": "2026. 8. 9.",
   "sources": {
     "naver": {
       "name": "네이버 플레이스",
       "url": "https://map.naver.com/p/entry/place/1471666703",
-      "count": 16
+      "count": 17
     },
     "kakao": {
       "name": "카카오맵",
@@ -18,6 +18,14 @@
     }
   },
   "reviews": [
+    {
+      "id": "naver_6a769fdaccf68a009da51c43",
+      "source": "naver",
+      "author": "겨울바다340",
+      "rating": 5,
+      "date": "2026-08-08",
+      "text": "대표원장님의 한결같이 세심하게 침치료 해주셔서 마음이 편안해지며 더불어 치유되어가는 느낌이 들어서 꾸준히 침치료 받아 보렵니다."
+    },
     {
       "id": "naver_6a6d633a8b9d1bf93bbb43d3",
       "source": "naver",
