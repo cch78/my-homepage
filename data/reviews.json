@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026. 8. 9.",
+  "lastUpdated": "2026. 8. 16.",
   "sources": {
     "naver": {
       "name": "네이버 플레이스",
       "url": "https://map.naver.com/p/entry/place/1471666703",
-      "count": 17
+      "count": 19
     },
     "kakao": {
       "name": "카카오맵",
@@ -18,6 +18,22 @@
     }
   },
   "reviews": [
+    {
+      "id": "naver_6a7987b4ffb356ca91b49200",
+      "source": "naver",
+      "author": "아카시아6994",
+      "rating": 5,
+      "date": "2026-08-10",
+      "text": "선생님 원장님이 친절하시고 깨끗한 환경이 너무 좋아요"
+    },
+    {
+      "id": "naver_6a780539891d054738968ee8",
+      "source": "naver",
+      "author": "skcr****",
+      "rating": 5,
+      "date": "2026-08-09",
+      "text": "항상 최고~ 깨끗하고 너무 좋아요 원장님 직원들 넘 친절하셔서. 매일가요 다이어트 약으로 살도많이뺐는데 허리 통증도 많이좋아지네요"
+    },
     {
       "id": "naver_6a769fdaccf68a009da51c43",
       "source": "naver",
