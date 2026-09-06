@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026. 8. 16.",
+  "lastUpdated": "2026. 9. 6.",
   "sources": {
     "naver": {
       "name": "네이버 플레이스",
       "url": "https://map.naver.com/p/entry/place/1471666703",
-      "count": 19
+      "count": 24
     },
     "kakao": {
       "name": "카카오맵",
@@ -18,6 +18,46 @@
     }
   },
   "reviews": [
+    {
+      "id": "naver_6a97e6c8e2ba9c578f2bfa8a",
+      "source": "naver",
+      "author": "처리맘",
+      "rating": 5,
+      "date": "2026-09-02",
+      "text": "처음 방문한 곳인데 친절하게 맞아주시고 자세하게 설명도 해주셔서 마음이 편했네요 ~원장님도 , 선생님들도 너무 좋으셔서 맘편하게 치료 잘 받았습니다~감사합니다"
+    },
+    {
+      "id": "naver_6a97d80aaed681e3a61e2f8a",
+      "source": "naver",
+      "author": "wonnnnh",
+      "rating": 5,
+      "date": "2026-09-02",
+      "text": "1년째 꾸준히 치료중입니다! 원종동 한의원은 여기!"
+    },
+    {
+      "id": "naver_6a97d633fbe24013a2207ca3",
+      "source": "naver",
+      "author": "ekd****",
+      "rating": 5,
+      "date": "2026-09-02",
+      "text": "등이 너무 아파 3개월동안 고생했는데 3회만에 거의 다좋아졌어요!"
+    },
+    {
+      "id": "naver_6a97bc47a5ae5ae26de57248",
+      "source": "naver",
+      "author": "스마트한 인연34",
+      "rating": 5,
+      "date": "2026-09-02",
+      "text": "며칠전에 무거운것 들다가 갈비뼈 아래가 맺히듯이 아프더니 계속 안좋더라구요 그래서 오늘 방문하게 되었는데 침. 부항. 등 치료를 받았습니다 선생님 친절하시고 꼼꼼하게 진료 잘 해주셔서 아플때마다 찾는 한의원 입니다 항상 감사합니다"
+    },
+    {
+      "id": "naver_6a9396a27c4f369fb65873cc",
+      "source": "naver",
+      "author": "whi****",
+      "rating": 5,
+      "date": "2026-08-30",
+      "text": "친절하세요. 아프지않게 침 놔주시네요. 적극추천합니다."
+    },
     {
       "id": "naver_6a7987b4ffb356ca91b49200",
       "source": "naver",
