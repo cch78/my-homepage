@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026. 9. 6.",
+  "lastUpdated": "2026. 9. 13.",
   "sources": {
     "naver": {
       "name": "네이버 플레이스",
       "url": "https://map.naver.com/p/entry/place/1471666703",
-      "count": 24
+      "count": 28
     },
     "kakao": {
       "name": "카카오맵",
@@ -18,6 +18,38 @@
     }
   },
   "reviews": [
+    {
+      "id": "naver_6aa3c30392e7921cc27f5489",
+      "source": "naver",
+      "author": "ekd****",
+      "rating": 5,
+      "date": "2026-09-11",
+      "text": "절 괴롭히던 등허리가 많이 좋아지고 있어요!! 항상 감사합니다!"
+    },
+    {
+      "id": "naver_6aa39e075c3b1502383f6d09",
+      "source": "naver",
+      "author": "밝은해님27",
+      "rating": 5,
+      "date": "2026-09-11",
+      "text": "척추협착으로 인한 다리저림 때문에 방문, 진료 받았는데 바로 효과가 느껴집니다. 좌고우면하지 않고 꾸준히 치료빋기로 결정했습니다."
+    },
+    {
+      "id": "naver_6aa28878593fccca5a913e3c",
+      "source": "naver",
+      "author": "ekd****",
+      "rating": 5,
+      "date": "2026-09-10",
+      "text": "항상 치료 잘 받고 있습니다!!!!"
+    },
+    {
+      "id": "naver_6a9e68468d886cb0d2250ff9",
+      "source": "naver",
+      "author": "수니67",
+      "rating": 5,
+      "date": "2026-09-07",
+      "text": "진료하려 올때마다 원장님도 친절히 설명도 잘해주시고 간호사님도 진절해서 기분좋게 진료하고 갑니다 감사합니다"
+    },
     {
       "id": "naver_6a97e6c8e2ba9c578f2bfa8a",
       "source": "naver",
