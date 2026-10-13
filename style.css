@@ -1000,7 +1000,7 @@ button { cursor: pointer; border: none; background: none; }
 }
 
 /* ─── 건강 칼럼 ───────────────────────────────────────────── */
-.col-article { padding-top: 128px; }
+.col-article { padding-top: calc(var(--hh, 217px) + 28px); }
 .breadcrumb-dark a { color: var(--primary); }
 .breadcrumb-dark span { color: var(--text-muted); }
 .col-tag { color: var(--primary); font-weight: 500; font-size: 0.92rem; letter-spacing: .3px; margin-bottom: 12px; }
@@ -1024,7 +1024,26 @@ button { cursor: pointer; border: none; background: none; }
 .col-card-soon:hover { transform: none; }
 
 @media (max-width: 768px) {
-  .col-article { padding-top: 96px; }
+  .col-article { padding-top: calc(var(--hh, 150px) + 20px); }
   .col-title { font-size: 1.6rem; }
   .col-lead { font-size: 1.02rem; }
 }
+
+/* ─── 질환백과 ───────────────────────────────────────────── */
+.dz-draft { background:#fff4e5; border:1px solid #f0c380; color:#8a5300; border-radius:var(--radius-sm); padding:12px 16px; margin:0 0 22px; font-size:.93rem; line-height:1.7; }
+.dz-toc { background:var(--bg-alt); border:1px solid var(--border); border-radius:var(--radius); padding:18px 22px; margin:22px 0 8px; }
+.dz-toc strong { display:block; margin-bottom:8px; }
+.dz-toc ol { list-style:decimal; padding-left:20px; display:grid; grid-template-columns:repeat(auto-fit,minmax(190px,1fr)); gap:4px 22px; color:var(--text-muted); }
+.dz-toc a { color:var(--primary); }
+.dz-h3 { font-size:1.1rem; font-weight:700; margin:22px 0 8px; }
+.dz-sources { list-style:disc; padding-left:20px; color:var(--text-muted); font-size:.92rem; }
+.dz-sources li { margin-bottom:6px; line-height:1.7; }
+.dz-search { width:100%; max-width:520px; padding:14px 20px; border:1px solid var(--border); border-radius:30px; font:inherit; margin:8px 0 10px; background:var(--white); }
+.dz-search:focus { outline:2px solid var(--primary-light); }
+.dz-cat { margin:34px 0 14px; font-size:1.3rem; font-weight:700; padding-left:14px; border-left:5px solid var(--primary); }
+.dz-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(250px,1fr)); gap:14px; }
+.dz-item { display:block; background:var(--white); border:1px solid var(--border); border-radius:var(--radius-sm); padding:16px 18px; color:inherit; transition:transform var(--transition), box-shadow var(--transition); }
+.dz-item:hover { transform:translateY(-3px); box-shadow:var(--shadow); }
+.dz-item h3 { font-size:1.04rem; font-weight:700; margin-bottom:6px; color:var(--primary-dark); }
+.dz-item p { font-size:.88rem; color:var(--text-muted); line-height:1.65; }
+.col-article .faq-list { margin:6px 0 4px; }

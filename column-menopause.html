@@ -235,6 +235,7 @@
   </footer>
 
   <script>
+    (function(){var h=document.getElementById('header');function f(){document.documentElement.style.setProperty('--hh',h.offsetHeight+'px');}f();addEventListener('resize',f);addEventListener('load',f);})();
     document.getElementById('hamburger').addEventListener('click', function () {
       document.getElementById('nav').classList.toggle('open');
       this.classList.toggle('active');
