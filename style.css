@@ -1047,3 +1047,8 @@ button { cursor: pointer; border: none; background: none; }
 .dz-item h3 { font-size:1.04rem; font-weight:700; margin-bottom:6px; color:var(--primary-dark); }
 .dz-item p { font-size:.88rem; color:var(--text-muted); line-height:1.65; }
 .col-article .faq-list { margin:6px 0 4px; }
+
+/* 휴진·진료시간 변경 공지 */
+.info-notice { display: flex; gap: 12px; align-items: baseline; max-width: 760px; margin: 0 auto 24px; padding: 14px 18px; background: #fff7e6; border: 1px solid #f0d9a8; border-radius: 12px; color: #6b4a00; font-size: 0.95rem; line-height: 1.6; }
+.info-notice[hidden] { display: none; }
+.info-notice strong { flex: none; }
