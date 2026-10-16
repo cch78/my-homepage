@@ -58,3 +58,4 @@ User-agent: Meta-ExternalAgent
 Allow: /
 
 Sitemap: https://kh-alwaysbluehani.co.kr/sitemap.xml
+Sitemap: https://kh-alwaysbluehani.co.kr/sitemap-disease.xml

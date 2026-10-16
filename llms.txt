@@ -49,6 +49,7 @@
 - [교통사고 후유증](https://kh-alwaysbluehani.co.kr/car-accident.html): 자동차보험 처리 절차와 치료 방법
 - [족저근막염](https://kh-alwaysbluehani.co.kr/foot-pain.html): 증상, 원인, 치료, 생활 관리
 - [건강 칼럼](https://kh-alwaysbluehani.co.kr/column.html): 원장이 직접 쓰는 건강 칼럼(갱년기·난임 등 주제별 심층 글)
+- [질환백과](https://kh-alwaysbluehani.co.kr/disease/): 질환별 원인·증상·치료와 한의학적 접근
 
 ## 안내
 
