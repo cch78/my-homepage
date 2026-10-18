@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026. 10. 11.",
+  "lastUpdated": "2026. 10. 18.",
   "sources": {
     "naver": {
       "name": "네이버 플레이스",
       "url": "https://map.naver.com/p/entry/place/1471666703",
-      "count": 42
+      "count": 47
     },
     "kakao": {
       "name": "카카오맵",
@@ -18,6 +18,46 @@
     }
   },
   "reviews": [
+    {
+      "id": "naver_6acf3d805f0e64549b72326f",
+      "source": "naver",
+      "author": "ekd****",
+      "rating": 5,
+      "date": "2026-10-14",
+      "text": "원장님과 직원분들이 너무 친절하세요. 오랜 저의 고민인 목과 허리! 그리고 자궁쪽도 같이 치료중입니다. 최고예요!"
+    },
+    {
+      "id": "naver_6acf300285f5faba9fbe134f",
+      "source": "naver",
+      "author": "govern77",
+      "rating": 5,
+      "date": "2026-10-14",
+      "text": "네번째 방문 꾸준히 치료 받음 더 좋아질것 같아요 의료진 분들이 넘 친절해요"
+    },
+    {
+      "id": "naver_6acdd05f26004962cda80b11",
+      "source": "naver",
+      "author": "ekd****",
+      "rating": 5,
+      "date": "2026-10-13",
+      "text": "치료받으면서 호전되고 있습니드 항상 감사합니다‘"
+    },
+    {
+      "id": "naver_6acc8db4e667b14206f09321",
+      "source": "naver",
+      "author": "govern77",
+      "rating": 5,
+      "date": "2026-10-12",
+      "text": "세번째 방문 대표 원장님이 저랑 맞는듯 해요 꾸준히 치료 받아 볼꺼에요"
+    },
+    {
+      "id": "naver_6acb0a43e428888dc88ab422",
+      "source": "naver",
+      "author": "thg****",
+      "rating": 5,
+      "date": "2026-10-11",
+      "text": "친절하시고 진료 잘받았어요!!!"
+    },
     {
       "id": "naver_6ac8414f661754dc4ab7d3d7",
       "source": "naver",
