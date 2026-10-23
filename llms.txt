@@ -48,9 +48,10 @@
 - [침 치료](https://kh-alwaysbluehani.co.kr/acupuncture.html): 침 치료 대상 증상과 진행 방식
 - [교통사고 후유증](https://kh-alwaysbluehani.co.kr/car-accident.html): 자동차보험 처리 절차와 치료 방법
 - [족저근막염](https://kh-alwaysbluehani.co.kr/foot-pain.html): 증상, 원인, 치료, 생활 관리
-- [건강 칼럼](https://kh-alwaysbluehani.co.kr/column.html): 원장이 직접 쓰는 건강 칼럼(갱년기·난임 등 주제별 심층 글)
+- [건강 칼럼](https://kh-alwaysbluehani.co.kr/column.html): 원장이 직접 쓰는 건강 칼럼(갱년기·난임·입덧 등 주제별 심층 글)
   - [갱년기, 왜 이렇게 여러 곳이 한꺼번에 힘들까](https://kh-alwaysbluehani.co.kr/column-menopause.html)
   - [난임, 한의원은 어디까지 도울 수 있을까](https://kh-alwaysbluehani.co.kr/column-infertility.html)
+  - [입덧, 언제까지 참아야 하고 언제 병원에 가야 할까](https://kh-alwaysbluehani.co.kr/column-morning-sickness.html)
 - [질환백과](https://kh-alwaysbluehani.co.kr/disease/): 질환별 원인·증상·치료와 한의학적 접근
   - [생리통](https://kh-alwaysbluehani.co.kr/disease/dysmenorrhea.html): 생리통의 원인·증상·한의원 치료
   - [난임](https://kh-alwaysbluehani.co.kr/disease/infertility.html): 난임의 원인·증상·한의원 치료
