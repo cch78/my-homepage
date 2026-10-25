@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026. 10. 18.",
+  "lastUpdated": "2026. 10. 25.",
   "sources": {
     "naver": {
       "name": "네이버 플레이스",
       "url": "https://map.naver.com/p/entry/place/1471666703",
-      "count": 47
+      "count": 48
     },
     "kakao": {
       "name": "카카오맵",
@@ -18,6 +18,14 @@
     }
   },
   "reviews": [
+    {
+      "id": "naver_6ad5d112a1f5fd84dac8f030",
+      "source": "naver",
+      "author": "govern77",
+      "rating": 5,
+      "date": "2026-10-19",
+      "text": "친절하시구 좋아요"
+    },
     {
       "id": "naver_6acf3d805f0e64549b72326f",
       "source": "naver",
