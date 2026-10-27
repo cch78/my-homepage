@@ -55,6 +55,7 @@
 - [질환백과](https://kh-alwaysbluehani.co.kr/disease/): 질환별 원인·증상·치료와 한의학적 접근
   - [생리통](https://kh-alwaysbluehani.co.kr/disease/dysmenorrhea.html): 생리통의 원인·증상·한의원 치료
   - [난임](https://kh-alwaysbluehani.co.kr/disease/infertility.html): 난임의 원인·증상·한의원 치료
+  - [다낭성난소증후군](https://kh-alwaysbluehani.co.kr/disease/pcos.html): 다낭성난소증후군의 원인·증상·한의원 치료
 
 ## 안내
 
