@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026. 10. 25.",
+  "lastUpdated": "2026. 11. 1.",
   "sources": {
     "naver": {
       "name": "네이버 플레이스",
       "url": "https://map.naver.com/p/entry/place/1471666703",
-      "count": 48
+      "count": 52
     },
     "kakao": {
       "name": "카카오맵",
@@ -18,6 +18,38 @@
     }
   },
   "reviews": [
+    {
+      "id": "naver_6ae550593319b724e331d48d",
+      "source": "naver",
+      "author": "iestp",
+      "rating": 5,
+      "date": "2026-10-31",
+      "text": "의사선생님이 친절하고 질문에 잘 답해주세요 일주일내내 진료가능하고 추나치료도 효과있습니다! 다음에도 방문예정입니다! 간호사 분들도 친절해요!"
+    },
+    {
+      "id": "naver_6ae54fa90b5e16adb136cb93",
+      "source": "naver",
+      "author": "0000009731",
+      "rating": 5,
+      "date": "2026-10-31",
+      "text": "원종사거리에있는 경희 늘푸른 한의원 지나치며 봤는데 오늘 첨진료왔다 의사쌤의 친절한 진료덕분에 치료잘받았다 다른곳과 조금차별한된점도 있고 다니면서 치료좀받아야겠다"
+    },
+    {
+      "id": "naver_6ae18f241912f7371613998c",
+      "source": "naver",
+      "author": "ekd****",
+      "rating": 5,
+      "date": "2026-10-28",
+      "text": "믿고 오는 병원입니다!!!"
+    },
+    {
+      "id": "naver_6ae003c63d33c56276cf8793",
+      "source": "naver",
+      "author": "thg****",
+      "rating": 5,
+      "date": "2026-10-27",
+      "text": "주변 찾아보다가 방문 했는데 다들 친절하고 좋아여! 자주 다니려구요!! 시설도 깨끗해서 맘에 듭니다!"
+    },
     {
       "id": "naver_6ad5d112a1f5fd84dac8f030",
       "source": "naver",
