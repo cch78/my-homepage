@@ -53,6 +53,7 @@
   - [난임, 한의원은 어디까지 도울 수 있을까](https://kh-alwaysbluehani.co.kr/column-infertility.html)
   - [입덧, 언제까지 참아야 하고 언제 병원에 가야 할까](https://kh-alwaysbluehani.co.kr/column-morning-sickness.html)
   - [임신 중 한약, 무엇을 걱정하고 무엇을 확인해야 할까](https://kh-alwaysbluehani.co.kr/column-herbal-medicine-pregnancy.html)
+  - [입덧에 침과 지압, 어디까지 알려져 있을까](https://kh-alwaysbluehani.co.kr/column-morning-sickness-acupuncture.html)
 - [질환백과](https://kh-alwaysbluehani.co.kr/disease/): 질환별 원인·증상·치료와 한의학적 접근
   - [생리통](https://kh-alwaysbluehani.co.kr/disease/dysmenorrhea.html): 생리통의 원인·증상·한의원 치료
   - [난임](https://kh-alwaysbluehani.co.kr/disease/infertility.html): 난임의 원인·증상·한의원 치료
