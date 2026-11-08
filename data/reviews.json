@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026. 11. 1.",
+  "lastUpdated": "2026. 11. 8.",
   "sources": {
     "naver": {
       "name": "네이버 플레이스",
       "url": "https://map.naver.com/p/entry/place/1471666703",
-      "count": 52
+      "count": 54
     },
     "kakao": {
       "name": "카카오맵",
@@ -18,6 +18,22 @@
     }
   },
   "reviews": [
+    {
+      "id": "naver_6ae6ab22b4500122c2712456",
+      "source": "naver",
+      "author": "iestp",
+      "rating": 5,
+      "date": "2026-11-01",
+      "text": "대기공간 깔끔하고 마사지기랑 어깨 마사지기도 있어요! 원장님 친절하고 일요일 진료도 됩니다! 또올게요"
+    },
+    {
+      "id": "naver_6ae6ac272e6dca046901b343",
+      "source": "naver",
+      "author": "0000009731",
+      "rating": 5,
+      "date": "2026-11-01",
+      "text": "첨방문후 많이 호전되었다 쌤친절한 설명덕분에 증상도 정확하게 알고 되고 당분간은 꾸준히 치료받아야하겠다"
+    },
     {
       "id": "naver_6ae550593319b724e331d48d",
       "source": "naver",
