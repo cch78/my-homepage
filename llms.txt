@@ -60,6 +60,7 @@
   - [경옥고와 공진단, 무엇이 다르고 누가 조심해야 할까](https://kh-alwaysbluehani.co.kr/column-gyeongokgo-gongjindan.html)
   - [생리통 진통제, 언제 먹어야 하고 먹어도 아플 땐 무엇을 확인할까](https://kh-alwaysbluehani.co.kr/column-dysmenorrhea-painkillers.html)
   - [자궁근종, 몇 cm면 수술해야 하고 수술 안 하면 어떻게 될까](https://kh-alwaysbluehani.co.kr/column-uterine-fibroids-size-surgery.html)
+  - [족저근막염, 낫는 데 얼마나 걸리고 왜 잘 안 나을까](https://kh-alwaysbluehani.co.kr/column-plantar-fasciitis-recovery.html)
 - [질환백과](https://kh-alwaysbluehani.co.kr/disease/): 질환별 원인·증상·치료와 한의학적 접근
   - [생리통](https://kh-alwaysbluehani.co.kr/disease/dysmenorrhea.html): 생리통의 원인·증상·한의원 치료
   - [난임](https://kh-alwaysbluehani.co.kr/disease/infertility.html): 난임의 원인·증상·한의원 치료
@@ -70,6 +71,7 @@
   - [이명](https://kh-alwaysbluehani.co.kr/disease/tinnitus.html): 이명의 원인·증상·한의원 치료
   - [습관성 유산(반복 유산)](https://kh-alwaysbluehani.co.kr/disease/recurrent-miscarriage.html): 습관성 유산의 원인·증상·한의원 치료
   - [난청(돌발성 난청 포함)](https://kh-alwaysbluehani.co.kr/disease/hearing-loss.html): 난청의 원인·증상·한의원 치료
+  - [메니에르병](https://kh-alwaysbluehani.co.kr/disease/menieres-disease.html): 메니에르병의 원인·증상·한의원 치료
 
 ## 안내
 
